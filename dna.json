@@ -1,5 +1,6 @@
 {
   "recipes": [
-    "build-essential"
+    "build-essential",
+    "passenger_enterprise::nginx"
   ]
 }
