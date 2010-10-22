@@ -8,6 +8,16 @@
     "rvm_ruby": "ree-1.8.7-2010.02",
     "root_path": "/usr/local/rvm/gems/ree-1.8.7-2010.02/gems/passenger-3.0.0"
   },
+  "nginx": {
+    "configure_flags": [
+      "--prefix=#{nginx[:install_path]}",
+      "--conf-path=#{nginx[:dir]}/nginx.conf",
+      "--with-http_ssl_module",
+      "--with-http_gzip_static_module",
+      "--with-http_sub_module",
+      "--add-module=/tmp/ngx_http_auth_pam_module-1.1"
+    ]
+  },
   "recipes": [
     "build-essential",
     "rvm",
