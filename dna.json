@@ -15,6 +15,7 @@
     "extra_configure_flags": [ "--with-http_sub_module" ]
   },
   "recipes": [
+    "apt",
     "build-essential",
     "rvm",
     "rvm::rubies",
