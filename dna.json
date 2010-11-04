@@ -18,6 +18,7 @@
   "recipes": [
     "apt",
     "build-essential",
+    "mysql::server",
     "rvm",
     "rvm::rubies",
     "rvm::default_ruby",
