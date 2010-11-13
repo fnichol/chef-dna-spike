@@ -48,8 +48,11 @@
     "apt",
     "build-essential",
     "openssh",
+    "iptables",
+    "git",
+    "mercurial",
     "bashrc",
-    "users::sysadmins",
+    "users",
     "sudo",
     "mysql::server",
     "rvm",
@@ -57,7 +60,6 @@
     "rvm::default_ruby",
     "nginx_http_auth_pam",
     "rvm_passenger",
-    "rvm_passenger::nginx",
-    "mercurial"
+    "rvm_passenger::nginx"
   ]
 }
