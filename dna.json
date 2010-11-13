@@ -24,6 +24,9 @@
       }
     ]
   },
+  "openssh": {
+    "permit_root_login": "without-password"
+  },
   "mysql": {
     "bind_address": "127.0.0.1",
     "server_root_password": "rooty",
@@ -44,6 +47,7 @@
   "recipes": [
     "apt",
     "build-essential",
+    "openssh",
     "bashrc",
     "users::sysadmins",
     "sudo",
