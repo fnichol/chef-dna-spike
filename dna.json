@@ -1,5 +1,18 @@
 {
   "node_hostname": "trogdor.nichol.ca",
+  "users": {
+    "sysadmins": [
+      {
+        "id": "jdoe",
+        "uid": "1201",
+        "gid": "staff",
+        "shell": "/bin/bash",
+        "comment": "John Doe",
+        "ssh_keys": "",
+        "create_group": true
+      }
+    ]
+  },
   "mysql": {
     "bind_address": "127.0.0.1",
     "server_root_password": "rooty",
@@ -21,6 +34,8 @@
     "apt",
     "build-essential",
     "bashrc",
+    "users::sysadmins",
+    "sudo",
     "mysql::server",
     "rvm",
     "rvm::rubies",
