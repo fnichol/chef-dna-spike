@@ -1,5 +1,5 @@
 {
-  "node_hostname": "trogdor",
+  "node_hostname": "trogdor.nichol.ca",
   "mysql": {
     "bind_address": "127.0.0.1",
     "server_root_password": "rooty",
@@ -19,7 +19,6 @@
   },
   "recipes": [
     "apt",
-    "hostname",
     "build-essential",
     "bashrc",
     "mysql::server",
