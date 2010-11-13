@@ -29,9 +29,10 @@
     "enable_iptables": "yes"
   },
   "mysql": {
-    "bind_address": "127.0.0.1",
+    "enable_iptables": "yes"
     "server_root_password": "rooty",
-    "server_repl_password": "reply"
+    "server_repl_password": "reply",
+    "repl_user_status": "enabled"
   },
   "rvm": {
     "rubies": [ "ree-1.8.7-2010.02" ],
