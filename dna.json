@@ -27,6 +27,7 @@
     "rvm::default_ruby",
     "nginx_http_auth_pam",
     "rvm_passenger",
-    "rvm_passenger::nginx"
+    "rvm_passenger::nginx",
+    "mercurial"
   ]
 }
