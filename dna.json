@@ -21,6 +21,7 @@
     "apt",
     "hostname",
     "build-essential",
+    "bashrc",
     "mysql::server",
     "rvm",
     "rvm::rubies",
