@@ -29,7 +29,7 @@
     "enable_iptables": "yes"
   },
   "mysql": {
-    "enable_iptables": "yes"
+    "enable_iptables": "yes",
     "server_root_password": "rooty",
     "server_repl_password": "reply",
     "repl_user_status": "enabled"
