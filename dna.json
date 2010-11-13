@@ -25,7 +25,8 @@
     ]
   },
   "openssh": {
-    "permit_root_login": "without-password"
+    "permit_root_login": "without-password",
+    "enable_iptables": "yes"
   },
   "mysql": {
     "bind_address": "127.0.0.1",
@@ -47,8 +48,8 @@
   "recipes": [
     "apt",
     "build-essential",
-    "openssh",
     "iptables",
+    "openssh",
     "git",
     "mercurial",
     "bashrc",
