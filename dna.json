@@ -11,6 +11,17 @@
         "ssh_keys": "",
         "create_group": true
       }
+    ],
+    "normal": [
+      {
+        "id": "francine",
+        "uid": "1202",
+        "gid": "staff",
+        "shell": "/bin/bash",
+        "comment": "Francine Schomle",
+        "ssh_keys": "",
+        "create_group": true
+      }
     ]
   },
   "mysql": {
